@@ -1,8 +1,0 @@
-Player{name=eddy, total coin=727}
-Player{name=sam, total coin=12255}
-Player{name=mike, total coin=7356}
-Player{name=tom, total coin=906}
-Player{name=bob, total coin=2822}
-Player{name=daniel, total coin=1000}
-Player{name=kim, total coin=4842}
-Player{name=COM, total coin=51}
