@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="1000.0" prefWidth="1920.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thefinalgamblehero.FinishController">
+    <stylesheets>
+        <URL value="@finish.css" />
+    </stylesheets>
+    <children>
+        <ImageView fitHeight="1006.0" fitWidth="1920.0" layoutY="-1.0" pickOnBounds="true">
+            <image>
+                <Image url="@../images/congrats.jpg" />
+            </image>
+        </ImageView>
+        <GridPane fx:id="recordGrid" layoutX="613.0" layoutY="189.0" prefHeight="788.0" prefWidth="633.0" styleClass="gridPaneMain" stylesheets="@finish.css">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="203.0" minWidth="10.0" prefWidth="101.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="376.0" minWidth="10.0" prefWidth="312.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="284.0" minWidth="10.0" prefWidth="213.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="178.0" minHeight="10.0" prefHeight="175.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="275.0" minHeight="10.0" prefHeight="193.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="275.0" minHeight="10.0" prefHeight="193.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="275.0" minHeight="10.0" prefHeight="193.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="275.0" minHeight="10.0" prefHeight="193.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="275.0" minHeight="10.0" prefHeight="193.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="275.0" minHeight="10.0" prefHeight="193.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="275.0" minHeight="10.0" prefHeight="193.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="275.0" minHeight="10.0" prefHeight="193.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="275.0" minHeight="10.0" prefHeight="193.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="275.0" minHeight="10.0" prefHeight="193.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="4.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Label fx:id="rank1Name" styleClass="rankPlayer" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <GridPane.margin>
+                        <Insets left="90.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="rank1Coin" styleClass="rankCoin" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <GridPane.margin>
+                        <Insets left="80.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label style="-fx-text-fill: #deaf06; -fx-font-weight: bold; -fx-font-size: 20pt;" styleClass="labelOrange" text="Top 10 Final Gambler" GridPane.columnIndex="1">
+                    <GridPane.margin>
+                        <Insets left="25.0" />
+                    </GridPane.margin>
+                    <padding>
+                        <Insets top="10.0" />
+                    </padding>
+                </Label>
+                <Label style="-fx-text-fill: #deaf06; -fx-font-weight: bold; -fx-font-size: 20pt;" styleClass="labelOrange" text="Total Coin" GridPane.columnIndex="2">
+                    <GridPane.margin>
+                        <Insets left="45.0" />
+                    </GridPane.margin>
+                    <padding>
+                        <Insets top="10.0" />
+                    </padding>
+                </Label>
+                <Label style="-fx-text-fill: #deaf06; -fx-font-size: 20pt; -fx-font-weight: bold;" styleClass="labelOrange" text="1" GridPane.rowIndex="1">
+                    <GridPane.margin>
+                        <Insets left="45.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label style="-fx-text-fill: #deaf06; -fx-font-size: 20pt; -fx-font-weight: bold;" styleClass="labelOrange" text="2" GridPane.rowIndex="2">
+                    <GridPane.margin>
+                        <Insets left="45.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label style="-fx-text-fill: #deaf06; -fx-font-size: 20pt; -fx-font-weight: bold;" styleClass="labelOrange" text="3" GridPane.rowIndex="3">
+                    <GridPane.margin>
+                        <Insets left="45.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label style="-fx-text-fill: #deaf06; -fx-font-size: 20pt; -fx-font-weight: bold;" styleClass="labelOrange" text="4" GridPane.rowIndex="4">
+                    <GridPane.margin>
+                        <Insets left="45.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label style="-fx-text-fill: #deaf06; -fx-font-size: 20pt; -fx-font-weight: bold;" styleClass="labelOrange" text="5" GridPane.rowIndex="5">
+                    <GridPane.margin>
+                        <Insets left="45.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label style="-fx-text-fill: #deaf06; -fx-font-size: 20pt; -fx-font-weight: bold;" styleClass="labelOrange" text="6" GridPane.rowIndex="6">
+                    <GridPane.margin>
+                        <Insets left="45.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label style="-fx-text-fill: #deaf06; -fx-font-size: 20pt; -fx-font-weight: bold;" styleClass="labelOrange" text="7" GridPane.rowIndex="7">
+                    <GridPane.margin>
+                        <Insets left="45.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label style="-fx-text-fill: #deaf06; -fx-font-size: 20pt; -fx-font-weight: bold;" styleClass="labelOrange" text="8" GridPane.rowIndex="8">
+                    <GridPane.margin>
+                        <Insets left="45.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label style="-fx-text-fill: #deaf06; -fx-font-size: 20pt; -fx-font-weight: bold;" styleClass="labelOrange" text="9" GridPane.rowIndex="9">
+                    <GridPane.margin>
+                        <Insets left="45.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label style="-fx-text-fill: #deaf06; -fx-font-size: 20pt; -fx-font-weight: bold;" styleClass="labelOrange" text="10" GridPane.rowIndex="10">
+                    <GridPane.margin>
+                        <Insets left="38.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="rank2Name" styleClass="rankPlayer" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                    <GridPane.margin>
+                        <Insets left="90.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="rank3Name" styleClass="rankPlayer" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                    <GridPane.margin>
+                        <Insets left="90.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="rank4Name" styleClass="rankPlayer" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                    <GridPane.margin>
+                        <Insets left="90.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="rank5Name" styleClass="rankPlayer" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                    <GridPane.margin>
+                        <Insets left="90.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="rank6Name" styleClass="rankPlayer" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                    <GridPane.margin>
+                        <Insets left="90.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="rank7Name" styleClass="rankPlayer" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                    <GridPane.margin>
+                        <Insets left="90.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="rank8Name" styleClass="rankPlayer" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                    <GridPane.margin>
+                        <Insets left="90.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="rank9Name" styleClass="rankPlayer" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                    <GridPane.margin>
+                        <Insets left="90.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="rank10Name" styleClass="rankPlayer" GridPane.columnIndex="1" GridPane.rowIndex="10">
+                    <GridPane.margin>
+                        <Insets left="90.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="rank2Coin" styleClass="rankCoin" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                    <GridPane.margin>
+                        <Insets left="80.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="rank3Coin" styleClass="rankCoin" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                    <GridPane.margin>
+                        <Insets left="80.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="rank4Coin" styleClass="rankCoin" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                    <GridPane.margin>
+                        <Insets left="80.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="rank5Coin" styleClass="rankCoin" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                    <GridPane.margin>
+                        <Insets left="80.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="rank6Coin" styleClass="rankCoin" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                    <GridPane.margin>
+                        <Insets left="80.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="rank7Coin" styleClass="rankCoin" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                    <GridPane.margin>
+                        <Insets left="80.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="rank8Coin" styleClass="rankCoin" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                    <GridPane.margin>
+                        <Insets left="80.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="rank9Coin" styleClass="rankCoin" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                    <GridPane.margin>
+                        <Insets left="80.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="rank10Coin" styleClass="rankCoin" GridPane.columnIndex="2" GridPane.rowIndex="10">
+                    <GridPane.margin>
+                        <Insets left="80.0" />
+                    </GridPane.margin>
+                </Label>
+            </children>
+        </GridPane>
+        <Button fx:id="loadRecord" layoutX="1670.0" layoutY="36.0" mnemonicParsing="false" onAction="#callRecord" styleClass="loadBtn" text="Load the game rank" />
+        <MediaView fx:id="mv" fitHeight="200.0" fitWidth="200.0" layoutX="76.0" layoutY="68.0" />
+        <ImageView fitHeight="344.0" fitWidth="336.0" layoutX="108.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true" rotate="5.0">
+            <image>
+                <Image url="@../images/machine.gif" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="267.0" fitWidth="562.0" layoutX="1298.0" layoutY="290.0" pickOnBounds="true" rotate="3.0">
+            <image>
+                <Image url="@../images/winner.jpg" />
+            </image>
+        </ImageView>
+        <Label layoutX="1292.0" layoutY="200.0" rotate="-3.0" styleClass="labelYellow" text="Christmas Event for Top Gamblers" />
+        <Label layoutX="76.0" layoutY="268.0" rotate="5.0" styleClass="machineLabel" text="We have more games for you !!" />
+        <ImageView fitHeight="136.0" fitWidth="633.0" layoutX="613.0" layoutY="29.0" pickOnBounds="true" rotate="-2.0">
+            <image>
+                <Image url="@../images/sign.gif" />
+            </image>
+        </ImageView>
+        <Label layoutX="1283.0" layoutY="726.0" rotate="-7.0" styleClass="labelYellow" text="Who knows you win the next game?" />
+    </children>
+</AnchorPane>

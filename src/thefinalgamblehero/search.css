@@ -1,0 +1,28 @@
+.btnBrown {
+    -fx-background-color: brown;
+    -fx-border-color: yellow;
+    -fx-background-radius: 12px;
+    -fx-border-radius: 8px;
+    -fx-text-fill: yellow;
+    -fx-font-weight:  bold;
+    -fx-border-width: 2px;
+    -fx-font-size: 15pt;
+}
+
+.gridPaneMain {
+    -fx-background-radius: 8px;
+    -fx-background-color: green;
+    -fx-border-radius: 8px;
+    -fx-border-width: 3px;
+    -fx-border-color: yellow;
+}
+
+.labelPlayer {
+    -fx-font-size: 28px;
+    -fx-text-fill: yellow;
+}
+
+.labelCoin {
+    -fx-font-size: 22px;
+    -fx-text-fill: yellow;
+}

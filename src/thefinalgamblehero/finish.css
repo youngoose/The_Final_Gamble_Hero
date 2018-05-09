@@ -1,0 +1,50 @@
+.labelOrange {
+    -fx-font-weight: bold;
+    -fx-font-size: 20pt;
+    -fx-text-fill: #DEAF06;
+}
+
+.gridPaneMain {
+    -fx-background-radius: 8px;
+    -fx-background-color: green;
+    -fx-border-radius: 8px;
+    -fx-border-width: 3px;
+    -fx-border-color: yellow;
+}
+
+.machineLabel {
+    -fx-font-weight: bold;
+    -fx-font-size: 32px;
+    -fx-text-fill: #FFEE00;
+    -fx-font-style: italic;
+}
+
+.labelYellow {
+    -fx-font-weight: bold;
+    -fx-font-size: 36px;
+    -fx-text-fill: #FFEE00;
+    -fx-font-style: italic;
+}
+
+.rankPlayer {
+    -fx-font-weight: bold;
+    -fx-font-size: 28px;
+    -fx-text-fill: yellow;
+}
+
+.rankCoin {
+    -fx-font-weight: bold;
+    -fx-font-size: 22px;
+    -fx-text-fill: yellow;
+}
+
+.loadBtn {
+    -fx-background-color: brown;
+    -fx-border-color: yellow;
+    -fx-background-radius: 12px;
+    -fx-border-radius: 8px;
+    -fx-text-fill: yellow;
+    -fx-font-weight:  bold;
+    -fx-border-width: 2px;
+    -fx-font-size: 15pt;
+}

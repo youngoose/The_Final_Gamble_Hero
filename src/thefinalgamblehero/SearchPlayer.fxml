@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thefinalgamblehero.SearchPlayerController">
+    <stylesheets>
+        <URL value="@search.css" />
+    </stylesheets>
+    <children>
+        <ImageView fitHeight="607.0" fitWidth="808.0" pickOnBounds="true">
+            <image>
+                <Image url="@../images/search.jpg" />
+            </image>
+        </ImageView>
+        <GridPane fx:id="recordGrid" layoutX="106.0" layoutY="182.0" prefHeight="154.0" prefWidth="597.0" styleClass="gridPaneMain">
+            <children>
+                <Label fx:id="rank1Name" styleClass="labelPlayer" GridPane.rowIndex="1">
+                    <GridPane.margin>
+                        <Insets left="90.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="rank1Coin" styleClass="labelCoin" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <GridPane.margin>
+                        <Insets left="60.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label style="-fx-text-fill: #deaf06; -fx-font-weight: bold; -fx-font-size: 20pt;" text="Player name" textFill="#deaf06">
+                    <font>
+                        <Font size="28.0" />
+                    </font>
+                    <GridPane.margin>
+                        <Insets left="90.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label style="-fx-text-fill: #deaf06; -fx-font-weight: bold; -fx-font-size: 20pt;" text="Current coin" textFill="#deaf06" GridPane.columnIndex="1">
+                    <font>
+                        <Font size="28.0" />
+                    </font>
+                    <GridPane.margin>
+                        <Insets left="45.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="player" style="-fx-text-fill: yellow; -fx-font-weight: bold; -fx-font-size: 20pt;" textFill="YELLOW" GridPane.rowIndex="1">
+                    <font>
+                        <Font size="28.0" />
+                    </font>
+                    <GridPane.margin>
+                        <Insets bottom="30.0" left="120.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label fx:id="coin" style="-fx-text-fill: yellow; -fx-font-weight: bold; -fx-font-size: 20pt;" textFill="#deaf06" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <font>
+                        <Font size="28.0" />
+                    </font>
+                    <GridPane.margin>
+                        <Insets bottom="30.0" left="75.0" />
+                    </GridPane.margin>
+                </Label>
+            </children>
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="376.0" minWidth="10.0" prefWidth="312.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="284.0" minWidth="10.0" prefWidth="213.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="178.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="275.0" minHeight="10.0" prefHeight="76.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+        </GridPane>
+        <Button layoutX="29.0" layoutY="27.0" mnemonicParsing="false" onAction="#GoToStartPage" styleClass="btnBrown" stylesheets="@search.css" text="Back to start page" />
+        <Button layoutX="572.0" layoutY="27.0" mnemonicParsing="false" onAction="#loadPlayerRecord" styleClass="btnBrown" stylesheets="@search.css" text="Load player record" />
+    </children>
+</AnchorPane>
