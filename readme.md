@@ -1,6 +1,6 @@
 # The Final Gable Hero 
 
-## Introduction </br>
+## Introduction 
 Have you ever dreamed of being a millionaire? Your dreams will come true when you click the start button on this game. The final gamble hero is a gambling style game that your character plays on the field at the race. You only need to win the race to get more money. The more money you bet, the more money you will have if you get a place. 
 
 ## Description </br>
