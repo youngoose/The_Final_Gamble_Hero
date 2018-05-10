@@ -15,9 +15,9 @@ It writes and reads a file as using the static arraylist with one method for wri
 Players can serach their current record anytime even if they turn off the game and turn on again.
 
 ## Start page
-Check my current coins(button) 
+* Check my current coins(button) </br>
 It retrieves the information of player name and how much coins the player owns. </br>
-Multi mode </br>
+* Multi mode </br>
 Each player types his/her nickname(text field) and chooses character(choice box) they want to use at the race. </br>
 Player inputs the amount of coins they want to bet(text field) </br>
 Get free special item and start game(button) </br>
@@ -26,7 +26,7 @@ It generates a random item for each player to use at the race. Police(special ch
 ![hero1](https://user-images.githubusercontent.com/29807797/39850823-774d41ee-53e1-11e8-9502-79ad150937a7.gif)
 
 ## Game play page
-Save game record(button) </br>
+* Save game record(button) </br>
 A button to go to award page to see total rank of all players.
 
 ![hero2](https://user-images.githubusercontent.com/29807797/39851034-a86ab40e-53e2-11e8-9c01-ff70be9f4535.gif)
