@@ -26,7 +26,7 @@ It generates a random item for each player to use at the race. Police (special c
 ![hero1](https://user-images.githubusercontent.com/29807797/39850823-774d41ee-53e1-11e8-9502-79ad150937a7.gif)
 
 ## Game play page
-* Save game record(button) </br>
+* Save game record (button) </br>
 A button to go to award page to see total rank of all players.
 
 ![hero2](https://user-images.githubusercontent.com/29807797/39851034-a86ab40e-53e2-11e8-9c01-ff70be9f4535.gif)
