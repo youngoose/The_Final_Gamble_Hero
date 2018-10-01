@@ -2,7 +2,7 @@
 Have you ever dreamed of being a millionaire? Your dreams will come true when you click the start button on this game. The final gamble hero is a gambling style game that your character plays on the field at the race. You only need to win the race to get more money. The more money you bet, the more money you will have if you get a place. 
 
 ## Description 
-It has 4 different windows - start page, game play page, rank page and search player page.
+It has 4 different windows - start page, game play page, rank page, and search player page.
 
 ## Special items 
 Whenever you play the game, your character will be given a random free item. </br>
